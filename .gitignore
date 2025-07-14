@@ -8,7 +8,7 @@ backend/venv/
 backend/__pycache__/
 backend/*.pyc
 backend/.env
-backend/screenshots/
+#backend/screenshots/
 
 # General
 *.log
@@ -36,13 +36,13 @@ public/*.log
 public/temp/
 
 # Ignore Playwright user data and screenshots
-*.png
+#*.png
 *.jpg
 *.jpeg
 *.webp
 *.gif
 
-screenshots/
+#screenshots/
 *.log
 
 # Ignore frontend build and dependency folders
