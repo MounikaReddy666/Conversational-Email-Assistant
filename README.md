@@ -45,7 +45,7 @@ And instantly sends it via Gmail using SMTP.
 
 ## 🧱 Project Structure
 <pre><code>
-```
+
 emailSender/
 ├── backend/
 │   ├── main.py               # FastAPI entrypoint
@@ -57,7 +57,7 @@ emailSender/
 └── frontend/
     └── src/components/
         └── Chat.jsx          # React UI with voice input support
-```
+
 </code></pre>
 
 
@@ -73,7 +73,7 @@ emailSender/
 | Secrets Mgmt  | dotenv              | Secure env variable handling         |
 
 📷 Architecture
-![Architecture Diagram](screenshots/architecture.png)
+![Architecture Diagram](backend/screenshots/architecture.png)
 
 🧪 Playwright vs SMTP: Comparison
 
@@ -124,13 +124,13 @@ Speak or type a prompt:
 Send an update email to teamlead@gmail.com saying task is complete.
 You’ll get either:
 
-✅ Confirmation of email sent
+✅ Confirmation of email sent.
 
-🖼️ Screenshot (if using Playwright)
+🖼️ Screenshot (if using Playwright).
 
-❌ Error logs (if config fails)
+❌ Error logs (if config fails).
 
-💡 Example Prompts to Try
+💡 Example Prompts to Try.
 
 Send an invitation email to xyz@gmail.com for the hackathon on Saturday.
 Send a thank you note to professor for writing my LOR.
@@ -145,16 +145,17 @@ Send an internship request to hr@company.com with my Java & ML skills.
 | LLM giving invalid JSON responses | Added strict parsing + recovery for malformed output |
 | Voice input browser support       | Used WebkitSpeechRecognition + graceful fallbacks    |
 
-🔮 Future Plans
+🔮 Future Plans.
 
-✅ Use SMTP for now, retry Playwright in future with better DOM handlers
-📎 Add support for attachments and modifying the UI for better user experience
-🧾 Email preview in UI before sending
-📊 Dashboard of sent mails with timestamps
+✅ Use SMTP for now, retry Playwright in future with better DOM handlers.
+📎 Add support for attachments and modifying the UI for better user experience.
+🧾 Email preview in UI before sending.
+📊 Dashboard of sent mails with timestamps.
 
 ✨ Demo (Screenshots)
-![Demo UI](screenshots/UI demo.png)
-![Email Proof](screenshots/automatic mail.png.png)
+![Demo UI](backend/screenshots/UI demo.png)
+![Email Proof](backend/screenshots/automatic mail.png)
+
 
 
 👩‍💻 Built By
