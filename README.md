@@ -130,7 +130,7 @@ You’ll get either:
 
 ❌ Error logs (if config fails).
 
-###💡 **Example Prompts to Try**.
+💡 **Example Prompts to Try**.
 
 - Send an invitation email to xyz@gmail.com for the hackathon on Saturday.
 - Send a thank you note to professor for writing my LOR.
@@ -144,6 +144,10 @@ You’ll get either:
 | Compose box stuck on subject line | Switched to SMTP-based approach after debugging      |
 | LLM giving invalid JSON responses | Added strict parsing + recovery for malformed output |
 | Voice input browser support       | Used WebkitSpeechRecognition + graceful fallbacks    |
+
+💡 **Want to try Gmail browser automation instead of SMTP?**  
+You can switch back to **Playwright** by **uncommenting** the `email_geneartion.py`,`Chat.jsx`,`browser_automation.py` import and related lines in `main.py`.
+
 
 ### 🔮 Future Plans
 
