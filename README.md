@@ -90,7 +90,7 @@ emailSender/
 
 Create a .env file in backend/:
 
-
+```
 GMAIL_ADDRESS=your_email@gmail.com
 GMAIL_APP_PASSWORD=your_16_char_app_password
 
@@ -117,6 +117,7 @@ npm install
 npm run dev                 # or npm start
 4. Test the App
 Open http://localhost:3000
+```
 
 Speak or type a prompt:
 
