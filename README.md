@@ -130,11 +130,11 @@ You’ll get either:
 
 ❌ Error logs (if config fails).
 
-💡 Example Prompts to Try.
+###💡 **Example Prompts to Try**.
 
-Send an invitation email to xyz@gmail.com for the hackathon on Saturday.
-Send a thank you note to professor for writing my LOR.
-Send an internship request to hr@company.com with my Java & ML skills.
+- Send an invitation email to xyz@gmail.com for the hackathon on Saturday.
+- Send a thank you note to professor for writing my LOR.
+- Send an internship request to hr@company.com with my Java & ML skills.
 
 🧠 Challenges I Faced
 
@@ -145,25 +145,31 @@ Send an internship request to hr@company.com with my Java & ML skills.
 | LLM giving invalid JSON responses | Added strict parsing + recovery for malformed output |
 | Voice input browser support       | Used WebkitSpeechRecognition + graceful fallbacks    |
 
-🔮 Future Plans.
+### 🔮 Future Plans
 
-✅ Use SMTP for now, retry Playwright in future with better DOM handlers.
-📎 Add support for attachments and modifying the UI for better user experience.
-🧾 Email preview in UI before sending.
-📊 Dashboard of sent mails with timestamps.
+- ✅ Use SMTP for now; retry Playwright later with better DOM handlers  
+- 📎 Add support for attachments and improve the UI/UX  
+- 🧾 Add **email preview** feature before sending  
+- 📊 Create a **dashboard** to view sent mails with timestamps  
 
-✨ Demo (Screenshots)
-![Demo UI](backend/screenshots/UI demo.png)
-![Email Proof](backend/screenshots/automatic mail.png)
+---
 
+### ✨ Demo (Screenshots)
 
+![Demo UI](backend/screenshots/UI%20demo.png)  
+![Email Proof](backend/screenshots/automatic%20mail.png)
 
-👩‍💻 Built By
-Mounika Reddy Boggari
-Final Year B.Tech | Passionate about AI, Web Dev, and Java
-🔗 LinkedIn
+---
+
+### 👩‍💻 Built By
+
+**Mounika Reddy Boggari**  
+Final Year B.Tech | Passionate about AI, Web Dev, and Java  
+🔗 [LinkedIn](https://www.linkedin.com/in/mounika-reddy-boggari-a5851b296/)  
 📬 Email: boggarimounikareddy@gmail.com
 
-📜 License
-MIT – Use it, modify it, contribute back 🙌
+---
 
+### 📜 License
+
+**MIT** – Use it, modify it, contribute back 🙌
